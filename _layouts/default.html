@@ -1,0 +1,69 @@
+<DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="landing">
+    <!-- Page Wrapper -->
+      <div id="page-wrapper">
+
+        {%- include header.html -%}
+        <!-- Banner -->
+          <section id="banner">
+            <div class="inner">
+              <h2>{{ site.title | escape }}</h2>
+              <p>{{- site.description | escape -}}</p>
+              <!-- <ul class="actions">
+                <li><a href="#" class="button special">Activate</a></li>
+              </ul> -->
+            </div>
+            <!-- <a href="#one" class="more scrolly">Learn More</a> -->
+          </section>
+
+        <!-- One -->
+
+        <!-- Two -->
+					<section id="two" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
+								<h2>Here's something<br />
+								really cool</h2>
+								<p>A great description of something.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
+                <h2>Here's something else<br />
+								really cool</h2>
+								<p>A great description of something else.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
+                <h2>Here's a final something<br />
+								really cool</h2>
+								<p>A great description of a final something.</p>
+							</div>
+						</section>
+					</section>
+
+          <!-- CTA -->
+  					<section id="cta" class="wrapper style4">
+  						<div class="inner">
+  							<header>
+  								<h2>Let's finalize the content</h2>
+  								<p>That's right. Just wrap it on up here and maybe the email form or something.</p>
+  							</header>
+  							<!-- <ul class="actions vertical">
+  								<li><a href="#" class="button fit special">Activate</a></li>
+  								<li><a href="#" class="button fit">Learn More</a></li>
+  							</ul> -->
+  						</div>
+  					</section>
+
+        {%- include footer.html -%}
+
+      </div>
+  </body>
+
+</html>

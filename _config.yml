@@ -1,0 +1,33 @@
+#
+# Smart Objects
+
+# Site Settings
+###############################################################################
+title: Smart Objects
+email: smartobjectstheband@gmail.com
+description: >- # Ignore every newline until the next setting, big guy!
+  The new project from Benjamin A. Harper or whatever
+baseurl: ""
+url: ""
+twitter_username: newberrysummer
+github_username: newberrysummer
+
+
+# Build Settings
+###############################################################################
+markdown: kramdown
+#theme: theme here
+#plugins: plugins here
+
+
+# Exclue from Processing
+###############################################################################
+# excluded by default:
+# exclude:
+# - Gemfile
+# - Gemfile.lock
+# - node_modules
+# - vendor/bundle
+# - vendor/cache
+# - vendor/gems
+# - vendor/ruby
